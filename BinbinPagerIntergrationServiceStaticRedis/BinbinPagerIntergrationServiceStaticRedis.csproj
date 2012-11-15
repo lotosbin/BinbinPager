@@ -51,9 +51,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="NuGet.exe" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="BinbinPagerIntergrationServiceStaticRedis.nuspec" />
     <None Include="packages.config" />
   </ItemGroup>
