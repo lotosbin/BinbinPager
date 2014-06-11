@@ -7,3 +7,6 @@ TestResults
 
 *.vspscc
 *.vssscc
+*.nupkg
+*.user
+*.suo

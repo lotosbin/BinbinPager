@@ -4,6 +4,14 @@ namespace BinbinPager
 {
     public class PagedList<T> : List<T>, IPagedList<T>
     {
+        /// <summary>
+        /// for automaper
+        /// </summary>
+        public PagedList()
+            : this(new PagerInfo(1, 10, 0))
+        {
+
+        }
         public PagedList(IEnumerable<T> collection, IPagerInfo pagerInfo)
             : base(collection)
         {

@@ -1,7 +1,6 @@
 BinbinPager
 ===========
 
-BinbinPager
 
 
     IQueryable<T> source;
