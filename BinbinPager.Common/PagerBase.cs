@@ -4,6 +4,5 @@ namespace BinbinPager
     {
         ZeroBase = 0,
         OneBase = 1,
-
     }
 }

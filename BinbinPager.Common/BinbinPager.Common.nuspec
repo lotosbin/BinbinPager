@@ -6,13 +6,13 @@
     <title>$title$</title>
     <authors>$author$</authors>
     <owners>$author$</owners>
-    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
+    <licenseUrl>https://github.com/lotosbin/BinbinPager</licenseUrl>
     <projectUrl>https://github.com/lotosbin/BinbinPager</projectUrl>
     <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <releaseNotes>分页基础信息，提供属性是否有下一页，上一页，总页数等属性</releaseNotes>
     <copyright>Copyright 2012</copyright>
-    <tags>Tag1 Tag2</tags>
+    <tags>pager </tags>
   </metadata>
 </package>

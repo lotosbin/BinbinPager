@@ -1,17 +1,21 @@
+using System;
 using System.Collections.Generic;
+using System.Runtime.Serialization;
 
 namespace BinbinPager
 {
+    [Serializable]
+    [DataContract]
     public class PagedList<T> : List<T>, IPagedList<T>
     {
         /// <summary>
-        /// for automaper
+        ///     for automaper
         /// </summary>
         public PagedList()
             : this(new PagerInfo(1, 10, 0))
         {
-
         }
+
         public PagedList(IEnumerable<T> collection, IPagerInfo pagerInfo)
             : base(collection)
         {
@@ -19,6 +23,8 @@ namespace BinbinPager
         }
 
         #region Implementation of IPagedList<T>
+
+        private IPagerInfo _pagerInfo;
 
         public PagedList(int capacity, IPagerInfo pagerInfo)
             : base(capacity)
@@ -31,14 +37,11 @@ namespace BinbinPager
             PagerInfo = pagerInfo;
         }
 
-        private IPagerInfo _pagerInfo;
+        [DataMember]
         public IPagerInfo PagerInfo
         {
             get { return _pagerInfo; }
-            set
-            {
-                _pagerInfo = new PagerInfo(value);
-            }
+            set { _pagerInfo = new PagerInfo(value); }
         }
 
         #endregion

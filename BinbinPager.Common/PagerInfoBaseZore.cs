@@ -1,17 +1,13 @@
 namespace BinbinPager
 {
-    public class PagerInfoBaseZore : PagerInfoBaseBase
+    public class PagerInfoBaseZore : IPagerInfo
     {
-        public PagerInfoBaseZore(PagerBase pagerBase) : base(pagerBase)
-        {
-        }
-
-        public override int PageIndex { get; protected set; }
-        public override int PageCount { get; protected set; }
-        public override int RecordCount { get; protected set; }
-        public override bool HasPrevPage { get; protected set; }
-        public override bool HasNextPage { get; protected set; }
-        public override int PageSize { get; protected set; }
-        public override int Skip { get; protected set; }
+        public int PageIndex { get; protected set; }
+        public int PageCount { get; protected set; }
+        public int RecordCount { get; protected set; }
+        public bool HasPrevPage { get; protected set; }
+        public bool HasNextPage { get; protected set; }
+        public int PageSize { get; protected set; }
+        public int Skip { get; protected set; }
     }
 }

@@ -1,12 +1,10 @@
 namespace BinbinPager
 {
+    /// <summary>
+    /// 从1开始的分页信息
+    /// </summary>
     public abstract class PagerInfoBaseBase : IPagerInfo
     {
-        public PagerInfoBaseBase(PagerBase pagerBase)
-        {
-            this.PagerBase = pagerBase;
-        }
-        public PagerBase PagerBase { get; protected set; }
         public abstract int PageIndex { get; protected set; }
         public abstract int PageCount { get; protected set; }
         public abstract int RecordCount { get; protected set; }

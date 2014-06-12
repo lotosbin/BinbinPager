@@ -42,6 +42,16 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BinbinPager.Common\BinbinPager.Common.csproj">
+      <Project>{6d7dc418-fa52-4010-a2e3-df5cfb1f38f0}</Project>
+      <Name>BinbinPager.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BinbinPager\BinbinPager.csproj">
+      <Project>{2f702154-b07b-4645-9946-7eb324736523}</Project>
+      <Name>BinbinPager</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

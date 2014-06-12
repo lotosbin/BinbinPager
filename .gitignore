@@ -10,3 +10,4 @@ TestResults
 *.nupkg
 *.user
 *.suo
+packages/
