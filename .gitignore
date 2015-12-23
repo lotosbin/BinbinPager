@@ -11,4 +11,7 @@ TestResults
 *.user
 *.suo
 packages/
+.vs/
+
+packages/
 /References
