@@ -11,3 +11,4 @@ TestResults
 *.user
 *.suo
 packages/
+/References

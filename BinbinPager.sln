@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinbinPager", "BinbinPager\BinbinPager.csproj", "{2F702154-B07B-4645-9946-7EB324736523}"
 EndProject
@@ -28,10 +28,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{9BFF4D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1D76FC22-BA10-44DC-8002-4F97F12B9800}"
 	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
 		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinbinPager.Common.TestProject", "BinbinPager.Common.TestProject\BinbinPager.Common.TestProject.csproj", "{B88704ED-9572-4753-A50A-968039E69DB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinbinPagerIntergrationTopData", "BinbinPagerIntergrationTopData\BinbinPagerIntergrationTopData.csproj", "{EAB6153F-6393-421C-8810-716879A84C63}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,6 +70,10 @@ Global
 		{B88704ED-9572-4753-A50A-968039E69DB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B88704ED-9572-4753-A50A-968039E69DB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B88704ED-9572-4753-A50A-968039E69DB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAB6153F-6393-421C-8810-716879A84C63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAB6153F-6393-421C-8810-716879A84C63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAB6153F-6393-421C-8810-716879A84C63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAB6153F-6393-421C-8810-716879A84C63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -79,5 +86,6 @@ Global
 		{A90DF941-7368-4563-9643-51A5711B0DC3} = {DFC3AB95-9192-4959-A5A2-6F162175D7F6}
 		{84862357-1E83-402B-AD2B-2EE456120677} = {DFC3AB95-9192-4959-A5A2-6F162175D7F6}
 		{B88704ED-9572-4753-A50A-968039E69DB7} = {97BD4249-3542-43AB-86E8-06BECC08892C}
+		{EAB6153F-6393-421C-8810-716879A84C63} = {DFC3AB95-9192-4959-A5A2-6F162175D7F6}
 	EndGlobalSection
 EndGlobal
