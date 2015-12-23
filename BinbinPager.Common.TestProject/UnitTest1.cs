@@ -1,27 +1,20 @@
-﻿using System;
-using AutoMapper;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace BinbinPager.Common.TestProject
-{
+namespace BinbinPager.Common.TestProject {
     [TestClass]
-    public class UnitTest1
-    {
-        class a
-        {
+    public class UnitTest1 {
+        class a {
             public string Name { get; set; }
 
         }
 
-        class b
-        {
+        class b {
             public string Name { get; set; }
         }
 
 
         [TestMethod]
-        public void Test2()
-        {
+        public void Test2() {
             {
                 var pager = new PagerInfoBaseOne(0, 2, 0);
                 Assert.AreEqual(1, pager.PageIndex);
