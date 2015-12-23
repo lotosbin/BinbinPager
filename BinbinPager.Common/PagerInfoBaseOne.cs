@@ -5,7 +5,6 @@ namespace BinbinPager {
     /// <summary>
     ///     Öµ¶ÔÏó
     /// </summary>
-    [Obsolete("rename to pager1")]
     [Serializable]
     [DataContract]
     public class PagerInfoBaseOne : IPagerInfo {
@@ -73,9 +72,5 @@ namespace BinbinPager {
         public bool HasNextPage => PageIndex < PageCount;
 
         #endregion
-    }
-
-    public class Pager1 : PagerInfoBaseOne {
-
     }
 }

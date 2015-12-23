@@ -11,5 +11,4 @@ namespace BinbinPager {
         public abstract int PageSize { get; protected set; }
         public abstract int Skip { get; protected set; }
     }
-
 }

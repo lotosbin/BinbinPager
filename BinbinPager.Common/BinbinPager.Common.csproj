@@ -48,6 +48,10 @@
     <Compile Include="IPagedList.cs" />
     <Compile Include="IPagerInfo.cs" />
     <Compile Include="PagedList.cs" />
+    <Compile Include="PagedList0.cs" />
+    <Compile Include="PagedList1.cs" />
+    <Compile Include="Pager0.cs" />
+    <Compile Include="Pager1.cs" />
     <Compile Include="PagerBase.cs" />
     <Compile Include="%28Obsolete%29\PagerInfo.cs" />
     <Compile Include="PagerInfoBaseBase.cs" />
