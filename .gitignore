@@ -7,3 +7,5 @@ TestResults
 
 *.vspscc
 *.vssscc
+packages/
+.vs/
